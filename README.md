@@ -11,6 +11,8 @@ Structure=Lorie
 Functionality=Tim
 Functionality=Cam
 
+We will be using W3School for finding information
+
 We will be using Pixelorama for drawing incase we can't find images
 
 Structure= "Lorie":Big Turkey in the middle of the website and when  you click the Turkey you take a bite of the Turkey and after you eat the Turkey there will be fat Santa and you need to feed him cookies and Milk.
