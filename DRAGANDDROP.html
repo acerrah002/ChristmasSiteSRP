@@ -1,15 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<style>
-#div1 {
-  width: 350px;
-  height: 70px;
-  padding: 10px;
-  border: 1px solid #aaaaaa;
-  background-image: url("CookieEat.png");
-}
-</style>
+
 <script>
 function dragstartHandler(ev) {
   ev.dataTransfer.setData("text", ev.target.id);
@@ -28,13 +20,47 @@ function dropHandler(ev) {
 </head>
 <body>
 
-<h1>Drag and Drop API</h1>
+<h1>Drag and Drop </h1>
 
-<p>Drag and drop the W3Schools header into the rectangle:</p>
+<p>DrAg The PrEseNtS To ThE ChrIStMas TreE</p>
 
-<div id="div1" ondrop="dropHandler(event)" ondragover="dragoverHandler(event)"></div>
 
-<img id="h1" draggable="true" ondragstart="dragstartHandler(event)" src="Pixel Present.jpg">
+<br>
+<img id="img1" src="Pixel Present.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
+<img id="img1" src="Pixel Present.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
+<img id="img1" src="Pixel Present.jpg" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="69">
 
+<div id="ChristmasTree">
+<div id = "Divmt"></div>
+<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+<div id="div2" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+<div id="div3" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+</div>
+
+<style>
+body{
+  text-align: center;
+}
+
+#div1,#div2,#div3  {
+  height: 30px;
+  padding-top: 20px;
+  border: 1px solid #aaaaaa;
+
+}
+
+#Divmt{
+  height: 250px;
+}
+
+#ChristmasTree{
+  width: 350px;
+  height: 300px;
+  background-image: url("ChristmasTree.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </body>
 </html>
+
