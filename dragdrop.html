@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#div1 {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  border: 1px solid #000000;
+  background-image: url(CookieEat.png);
+}
+</style>
+<script>
+function dragstartHandler(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function dragoverHandler(ev) {
+  ev.preventDefault();
+}
+
+function dropHandler(ev) {
+  ev.preventDefault();
+  const data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<h1>SANTA MUST DIE</h1>
+
+<p>Fead the santa to the CookieEat</p>
+
+<div id="div1" ondrop="dropHandler(event)"   ondragover="dragoverHandler(event)"></div>
+<img id="img1" src="john santa.png" draggable="true" ondragstart="dragstartHandler(event)" width="336" height="336">
+
+</body>
+</html>
+
