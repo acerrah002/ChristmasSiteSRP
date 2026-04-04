@@ -10,9 +10,9 @@ What about Christmas=Food
 
 What are some Christmas foods=Cookies, Milk, Benetton, Mashed Potatoes, Candy Canes, McDonalds, Dumplings, GingerBread, Turkey
 
-Appearance=Lorie
+Appearance=Cam
 
-Structure=Cam
+Structure=Lorie
 
 Functionality=Tim
 
